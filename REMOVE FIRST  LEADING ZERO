@@ -1,0 +1,22 @@
+class main{
+public static void main(String args[]) {
+	String str="0000123456789";
+	int i=0;
+	while(i<str.length() && str.charAt(i) =='0') {
+		i++;
+	}
+	String result=str.substring(i);
+	System.out.println(result);
+}
+
+}
+}
+
+
+
+
+
+
+
+    
+
