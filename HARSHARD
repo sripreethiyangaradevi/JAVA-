@@ -1,0 +1,14 @@
+public class main {
+	public static void main(String rags[]) {
+	Scanner scan=new Scanner(System.in);
+	System.out.println("enter the a value:");
+	int num=scan.nextInt();
+	int sum=0;
+	sum+=num;
+	if(num%9==0) {
+		System.out.println("harshard");
+	}else {
+		System.out.println("not a harshard");
+	}
+	}
+}
