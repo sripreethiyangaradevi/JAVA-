@@ -1,0 +1,15 @@
+public class twostringrotation {
+	public static void main(String args[]) {
+	String str1="abcd";
+	String str2="cbad";
+	if(str1.length() != str2.length()) {
+		System.out.println("not rotation (length mismatch)");
+		
+	} else {
+		String combined = str1+str1;
+		System.out.println(combined);
+		boolean isRotation=combined.contains(str2);
+		System.out.println("Are rotation? " + isRotation);
+	}
+}
+}
